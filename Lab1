@@ -1,0 +1,140 @@
+
+<html>
+<head>
+    
+    <title>Learning HTML</title>
+</head>
+<body>
+    HELLO CODERS!!!!
+    <h1> This is heading 1</h1>
+    <h2> This is heading 2</h2>
+    <h3> This is heading 3</h3>
+    <h4> This is heading 4</h4>
+    <h5> This is heading 5</h5>
+    <h6> This is heading 6</h6>
+
+    <p> <i>RANDOM</i> <b>PARAGRAPH</b></p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, quibusdam fuga ipsam ab facere ad sit culpa amet nobis. Adipisci vel quod natus omnis illum, iste at accusamus repellat harum.
+    </p>
+
+    <code>
+        <pre>
+            function add(a,b){
+                return a+b;
+            }
+        </pre>
+    </code>
+
+    <p>
+        H<sub>2</sub>O
+    </p>
+
+    <p>
+        (a+b)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + 2ab
+    </p>
+
+    <div>
+        <h1> This is new heading</h1>
+        <p>This is para</p>
+    </div>
+
+    <span>
+        This is another new heading
+        This is another new para.
+    </span>
+    <span>Okay Continue...</span>
+
+    <!-- List -->
+    <h4>MOVIES</h4>
+    <ol type="I" start="3">
+        <li>The Batman</li>
+        <li>Mission Impossible</li>
+        <li>Prisoners</li>
+        <li>ShutterIsland</li>
+        <li>Tenet</li>
+    </ol>
+
+    <h4>FRUITS</h4>
+    <ul type="disk" >
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Grape</li>
+    </ul>
+
+</body>
+
+<table border="4px" cellpadding="10px" cellspacing="4px" >
+
+    <thead>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>One</td>
+            <td>Two</td>
+            <td>Three</td>
+            <td>Four</td>
+            <td>Five</td>
+        </tr>
+        <tr>
+            <td>OneOne</td>
+            <td>TwoTwo</td>
+            <td>ThreeThree</td>
+            <td>FourFour</td>
+            <td>FiveFive</td>
+        </tr>
+        <tr>
+            <td>OneOneOne</td>
+            <td>TwoTwoTwo</td>
+            <td>ThreeThreeThree</td>
+            <td>FourFourFour</td>
+            <td>FiveFiveFive</td>
+        </tr>
+
+    </tbody>
+</table>
+
+
+<h1>NEW TABLE</h1>
+<table border="4px" cellpadding="10px" cellspacing="4px" >
+
+    <thead>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td colspan="2px">One</td>
+            <td>Two</td>
+            <td>Three</td>
+        </tr>
+        <tr>
+            <td rowspan="3px">Three</td>
+            <td>Two</td>
+            <td>Six</td>
+            <td>Eight</td>
+        </tr>
+        <tr>
+            <td>One</td>
+            <td colspan="2px" rowspan="2px">Four</td>
+        </tr>
+        <tr>
+            <td>Two</td>
+        </tr>
+
+    </tbody>
+</table>
+</html>
